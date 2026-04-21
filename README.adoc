@@ -2,10 +2,10 @@
 
 // TODO: Change headline to better fit your project!
 
-This repository contains a student project created for an ongoing lecture on object-oriented
-programming with Kotlin at HWR Berlin (summer term 2026).
+This repository contains a student project created for an ongoing lecture on object-oriented programming with Kotlin at HWR Berlin (summer term 2026).
 
-WARNING: This code is for educational purposes only. Do not rely on it!
+WARNING: This code is for educational purposes only.
+Do not rely on it!
 
 == Feature Liste
 
@@ -52,7 +52,8 @@ Maven kann auch über den mitgelieferten Wrapper `./mvnw` ausgeführt werden –
 just test
 ----
 
-Führt alle Tests aus. Docker ist *nicht* erforderlich – SQL-Tests sind initial deaktiviert (siehe <<sql-tests>>).
+Führt alle Tests aus.
+Docker ist *nicht* erforderlich – SQL-Tests sind initial deaktiviert (siehe <<sql-tests>>).
 
 === Alle verfügbaren Befehle anzeigen
 
@@ -84,7 +85,8 @@ Die eigene Fork bei GitHub ist `origin`.
 
 === Schritt 1: Fork erstellen
 
-Öffne das Template-Repository auf GitHub und klicke auf *Fork*. Damit entsteht eine eigene Kopie unter deinem GitHub-Account.
+Öffne das Template-Repository auf GitHub und klicke auf *Fork*.
+Damit entsteht eine eigene Kopie unter deinem GitHub-Account.
 
 === Schritt 2: Fork klonen
 
@@ -111,6 +113,7 @@ git remote -v
 ----
 
 Erwartete Ausgabe:
+
 ....
 origin      https://github.com/DEIN_USER/TEMPLATE_FORK_REPO.git (fetch)
 origin      https://github.com/DEIN_USER/TEMPLATE_FORK_REPO.git (push)
@@ -147,7 +150,6 @@ Alternativ zu `git merge` kann auch `git rebase upstream/main` verwendet werden.
 Rebase ist idiomatischer, da es eine lineare Commit-History erzeugt – in der Praxis ist es jedoch etwas aufwendiger zu handhaben, vor allem bei Konflikten.
 Für dieses Projekt empfehlen wir daher, auf dem eigenen Fork einfach zu mergen.
 ====
-
 
 == Docker und PostgreSQL
 
